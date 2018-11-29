@@ -1,5 +1,4 @@
-FROM nginx
+FROM ubuntu:16.04
 
 
-COPY index.html /var/www/html/
-
+echo "HEllo"
