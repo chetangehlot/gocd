@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM nginx
 
 
-echo "HEllo"
+copy index.html /usr/share/www/html
